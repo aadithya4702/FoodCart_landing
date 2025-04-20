@@ -61,11 +61,11 @@ const Carousel = () => {
 
             {/* Overlay Content */}
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center px-4 text-center">
-              <div className="bg-black/30 backdrop-blur-sm rounded-xl p-8 max-w-[90%] md:max-w-2xl lg:max-w-3xl shadow-xl text-white animate-fade-in">
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 bg-gradient-to-r from-yellow-300 to-green-400 bg-clip-text text-transparent drop-shadow-md">
+              <div className="rounded-xl p-8 max-w-[90%] md:max-w-2xl lg:max-w-3xl  text-white animate-fade-in">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 bg-gradient-to-r text-white bg-clip-text text-transparent drop-shadow-md">
                   {slide.title}
                 </h2>
-                <p className="text-base md:text-lg lg:text-xl leading-loose tracking-wide text-gray-100 mb-6 whitespace-pre-line">
+                <p className="text-base md:text-lg lg:text-xl leading-loose tracking-wide text-gray-300 mb-6 whitespace-pre-line">
                   {slide.subtitle}
                 </p>
                 {/* <button className="mt-4 px-6 py-3 bg-gradient-to-r from-lime-400 to-green-500 text-black font-bold rounded-full shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-300">
